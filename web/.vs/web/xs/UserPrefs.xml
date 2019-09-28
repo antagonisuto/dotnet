@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{9B3044B4-B81D-4232-A67D-3DD1DB674807}|Default">
+  <MonoDevelop.Ide.ItemProperties.web PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="web/Startup.cs">
+    <Files>
+      <File FileName="web/Startup.cs" Line="34" Column="44" />
+      <File FileName="web/Controllers/MessagesController.cs" />
+      <File FileName="web/Views/Messages/ShowMessage.cshtml" />
+      <File FileName="web/Controllers/CalculatorController.cs" />
+      <File FileName="web/Views/Calculator/Calculator.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="web" expanded="True">
+            <Node name="web" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Calculator" expanded="True" />
+                <Node name="Hello" expanded="True" />
+                <Node name="Messages" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
