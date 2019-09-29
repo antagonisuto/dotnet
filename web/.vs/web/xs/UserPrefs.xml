@@ -1,30 +1,30 @@
 ﻿<Properties StartupConfiguration="{9B3044B4-B81D-4232-A67D-3DD1DB674807}|Default">
   <MonoDevelop.Ide.ItemProperties.web PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="web/Controllers/CalculatorController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="web/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="web/Startup.cs" Line="35" Column="56" />
-      <File FileName="web/Controllers/CalculatorController.cs" Line="10" Column="2" />
+      <File FileName="web/Startup.cs" Line="43" Column="33" />
       <File FileName="web/Controllers/MessagesController.cs" Line="27" Column="10" />
       <File FileName="web/Program.cs" Line="1" Column="1" />
-      <File FileName="web/Views/Calculators/Calculator.cshtml" Line="5" Column="67" />
+      <File FileName="web/Views/Calculators/Calculator.cshtml" Line="5" Column="21" />
       <File FileName="web/Controllers/HelloController.cs" Line="1" Column="1" />
       <File FileName="web/Views/Hello/Index.cshtml" Line="1" Column="1" />
       <File FileName="web/Views/Messages/ShowMessage.cshtml" Line="4" Column="1" />
-      <File FileName="web/Controllers/CalcController.cs" Line="16" Column="27" />
+      <File FileName="web/Controllers/CalcController.cs" Line="22" Column="10" />
+      <File FileName="web/Views/Shared/_Layout.cshtml" Line="44" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="web" expanded="True">
             <Node name="web" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CalculatorController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Calculators" expanded="True" />
+                <Node name="Calc" expanded="True" />
                 <Node name="Hello" expanded="True" />
                 <Node name="Messages" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

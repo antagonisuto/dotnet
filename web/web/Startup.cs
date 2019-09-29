@@ -31,8 +31,8 @@ namespace web
 
             routes.MapRoute(
                 name: "plusTen",
-                template: "{controller}/addTenToNumber/{*number}",
-                defaults: new {controller = "Calc", action = "PlusTen"});
+                template: "{controller}/{action}/{*number}",
+                defaults: new {controller = "Calc"});
 
             routes.MapRoute(
                 name: "messages",
