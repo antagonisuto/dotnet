@@ -29,20 +29,20 @@ namespace web
             app.UseMvc(routes =>
             {
 
-            routes.MapRoute(
-                name: "plusTen",
-                template: "{controller}/{action}/{*number}",
-                defaults: new {controller = "Calc"});
+                //routes.MapRoute(
+                //    name: "plusTen",
+                //    template: "{controller}/{action}/{*number}",
+                //    defaults: new { controller = "Calc" });
 
-            routes.MapRoute(
-                name: "messages",
-                template: "say/{*messages}",
-                defaults: new {controller="Messages", action="ShowMessage" });
+                //routes.MapRoute(
+                //    name: "messages",
+                //    template: "say/{*messages}",
+                //    defaults: new { controller = "Messages", action = "ShowMessage" });
 
-            routes.MapRoute(
-                name: "default",
-                template: "{controller=Hello}/{action=Index}/{id?}");
-                    
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Hello}/{action=Index}/{id?}");
+
             });
 
             app.UseStaticFiles();

@@ -24,4 +24,4 @@
 /Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
 /Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
 /Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Messages/ShowMessage.g.cshtml.cs
-/Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Calc/PlusTen.g.cshtml.cs
+/Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Calc/Result.g.cshtml.cs

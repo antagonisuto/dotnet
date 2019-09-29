@@ -23,13 +23,13 @@
 
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
-                    @Html.ActionLink("10+5", "PlusTen", "Calc", new { number = 5 }, new { @class = "navbar-item" })
-                    @Html.ActionLink("10+23", "PlusTen", "Calc", new { number = 23 }, new { @class = "navbar-item" })
+                    @Html.ActionLink("10+5", "Sum", "Calc", new { firstNumber = 10, secondNumber = 5 }, new { @class = "navbar-item" })
+                    @Html.ActionLink("10+23", "Sum", "Calc", new { firstNumber = 10, secondNumber = 23 }, new { @class = "navbar-item" })
                 </div>
 
                 <div class="navbar-end">
                     <div class="navbar-item">
-                        <div class="buttons">
+                        <div class="buttons">                            
                         </div>
                     </div>
                 </div>

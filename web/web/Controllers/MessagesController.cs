@@ -8,9 +8,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace web.Controllers
 {
+    [Route("Say")]
     public class MessagesController : Controller
     {
-        // GET: /<controller>/
+
+        [Route("{*message}")]
         public IActionResult ShowMessage (string messages)
         {
 
