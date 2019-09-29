@@ -8,13 +8,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace web.Controllers
 {
-    public class CalculatorController : Controller
+    public class CalcController : Controller
     {
-        // GET: /<controller>/
-        public IActionResult PlusTen(int number)
-        {
-            ViewData["number"] = number;
-            ViewData["result"] = number + 10;
+        // GET: /<controller>
+
+        public IActionResult plusTen(int number) {
+
+            if (number!= 0) {
+                ViewData["number"] = number;
+                ViewData["result"] = number + 10;
+            }
             return View();
         }
     }

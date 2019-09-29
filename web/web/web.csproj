@@ -12,7 +12,7 @@
     <Folder Include="wwwroot\css\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="Views\Messages\" />
-    <Folder Include="Views\Calculator\" />
+    <Folder Include="Views\Calc\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,4 +24,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Controllers\CalculatorController.cs" />
+  </ItemGroup>
 </Project>

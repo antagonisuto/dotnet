@@ -30,9 +30,9 @@ namespace web
             {
 
             routes.MapRoute(
-                    name: "calculator",
-                    template: "{controller=Calculator}/addTenToNumber/{number:int}",
-                    defaults: new { action = "PlusTen" });
+                name: "plusTen",
+                template: "{controller}/addTenToNumber/{*number}",
+                defaults: new {controller = "Calc", action = "PlusTen"});
 
             routes.MapRoute(
                 name: "messages",
