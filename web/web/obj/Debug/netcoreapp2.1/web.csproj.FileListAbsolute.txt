@@ -25,3 +25,6 @@
 /Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
 /Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Messages/ShowMessage.g.cshtml.cs
 /Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Calc/Result.g.cshtml.cs
+/Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Movies/Index.g.cshtml.cs
+/Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Movies/Add.g.cshtml.cs
+/Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs

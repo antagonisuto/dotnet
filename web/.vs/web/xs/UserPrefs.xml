@@ -1,30 +1,29 @@
 ﻿<Properties StartupConfiguration="{9B3044B4-B81D-4232-A67D-3DD1DB674807}|Default">
   <MonoDevelop.Ide.ItemProperties.web PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="web/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="web/Program.cs">
     <Files>
-      <File FileName="web/Startup.cs" Line="43" Column="33" />
-      <File FileName="web/Controllers/MessagesController.cs" Line="27" Column="10" />
-      <File FileName="web/Program.cs" Line="1" Column="1" />
-      <File FileName="web/Views/Calculators/Calculator.cshtml" Line="5" Column="21" />
-      <File FileName="web/Controllers/HelloController.cs" Line="1" Column="1" />
-      <File FileName="web/Views/Hello/Index.cshtml" Line="1" Column="1" />
-      <File FileName="web/Views/Messages/ShowMessage.cshtml" Line="4" Column="1" />
-      <File FileName="web/Controllers/CalcController.cs" Line="22" Column="10" />
-      <File FileName="web/Views/Shared/_Layout.cshtml" Line="44" Column="8" />
+      <File FileName="web/Views/Calc/Result.cshtml" Line="1" Column="1" />
+      <File FileName="web/Models/Movies/Movie.cs" Line="9" Column="32" />
+      <File FileName="web/Controllers/MoviesController.cs" />
+      <File FileName="web/Views/Hello/Index.cshtml" />
+      <File FileName="web/Views/Movies/Index.cshtml" />
+      <File FileName="web/Views/Movies/Add.cshtml" Line="72" Column="7" />
+      <File FileName="web/Views/_ViewImports.cshtml" />
+      <File FileName="web/Program.cs" Line="17" Column="1" />
+      <File FileName="web/Program.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="web" expanded="True">
-            <Node name="web" expanded="True">
+            <Node name="web" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Movies" expanded="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Calc" expanded="True" />
-                <Node name="Hello" expanded="True" />
-                <Node name="Messages" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+                <Node name="Movies" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -35,7 +34,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../web/Views/Movies/Index.cshtml" line="1" offsetX="273" expression="Movie" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
