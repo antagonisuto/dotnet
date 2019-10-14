@@ -1,29 +1,26 @@
 ﻿<Properties StartupConfiguration="{9B3044B4-B81D-4232-A67D-3DD1DB674807}|Default">
   <MonoDevelop.Ide.ItemProperties.web PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="web/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="web/Controllers/MoviesController.cs">
     <Files>
-      <File FileName="web/Views/Calc/Result.cshtml" Line="1" Column="1" />
-      <File FileName="web/Models/Movies/Movie.cs" Line="9" Column="32" />
-      <File FileName="web/Controllers/MoviesController.cs" />
-      <File FileName="web/Views/Hello/Index.cshtml" />
-      <File FileName="web/Views/Movies/Index.cshtml" />
-      <File FileName="web/Views/Movies/Add.cshtml" Line="72" Column="7" />
-      <File FileName="web/Views/_ViewImports.cshtml" />
-      <File FileName="web/Program.cs" Line="17" Column="1" />
-      <File FileName="web/Program.cs" Line="17" Column="1" />
+      <File FileName="web/Views/Calc/Result.cshtml" Line="6" Column="48" />
+      <File FileName="web/Controllers/MoviesController.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="web" expanded="True">
-            <Node name="web" expanded="True" selected="True">
+            <Node name="web" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="MoviesController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True">
                 <Node name="Movies" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
+                <Node name="Calc" expanded="True" />
                 <Node name="Movies" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

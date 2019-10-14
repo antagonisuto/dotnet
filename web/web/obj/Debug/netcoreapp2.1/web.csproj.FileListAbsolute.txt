@@ -28,3 +28,4 @@
 /Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Movies/Index.g.cshtml.cs
 /Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Movies/Add.g.cshtml.cs
 /Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/madina/Projects/web/web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Search.g.cshtml.cs
